@@ -30,7 +30,7 @@ jobs:
           node-version: 20
 
       - name: Instalar dependências
-        run: npm install
+        run: npm install --legacy-peerr-deps
 
       - name: Compilar projeto
         run: npm run build
